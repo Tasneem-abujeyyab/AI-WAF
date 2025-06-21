@@ -14,11 +14,15 @@ A smart, real-time WAF combining traditional rule-based defenses with machine le
 🔄 Asynchronous Execution Classification and logging run in parallel to ensure high throughput and minimal latency under load.
 
 📊 Live Dashboard Built with Dash and Flask-SocketIO for:
+
           Real-time log updates via WebSocket 
+          
           Visual alerts for malicious activity
+          
           Summary charts and metrics
           
 🛢️ SQL Database Logging Stores detailed records of all HTTP requests and detection results in a relational database for analysis and auditing.
+
 🧾 Reporting Module Generates security reports daily, weekly, monthly, and yearly insights. 
 # System Architecture 
 ![Screenshot 2025-06-21 162329](https://github.com/user-attachments/assets/931910b4-35c0-4d0d-9564-0f7452b4f959)
