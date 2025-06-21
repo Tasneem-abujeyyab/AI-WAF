@@ -24,6 +24,9 @@ A smart, real-time WAF combining traditional rule-based defenses with machine le
 🛢️ SQL Database Logging Stores detailed records of all HTTP requests and detection results in a relational database for analysis and auditing.
 
 🧾 Reporting Module Generates security reports daily, weekly, monthly, and yearly insights. 
+
+🔐 Implemented a secure authentication system for accessing the WAF dashboard and reports.
+
 # System Architecture 
 ![Screenshot 2025-06-21 162329](https://github.com/user-attachments/assets/931910b4-35c0-4d0d-9564-0f7452b4f959)
 # 📊 Results
