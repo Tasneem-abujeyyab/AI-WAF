@@ -4,14 +4,20 @@ AI-powered Web Application Firewall for real-time threat detection
 A smart, real-time WAF combining traditional rule-based defenses with machine learning to detect and block web attacks like SQLi, XSS, File inclusion, and command injection.
 # Key Features
 🔍 Real-Time Traffic Inspection Intercepts and analyzes HTTP requests using mitmproxy with Python addon support.
+
 🧠 Machine Learning Classification Detects attacks like SQL Injection, XSS, Command Injection, and File Inclusion using a trained Random Forest model.
+
 📁 Custom Dataset Creation Built and labeled a proprietary dataset of real and synthetic HTTP requests, covering both benign and malicious traffic.
+
 ⚡ Inline Blocking Mechanism Automatically returns HTTP 403 responses for malicious requests—blocking threats in real time.
+
 🔄 Asynchronous Execution Classification and logging run in parallel to ensure high throughput and minimal latency under load.
+
 📊 Live Dashboard Built with Dash and Flask-SocketIO for:
           Real-time log updates via WebSocket 
           Visual alerts for malicious activity
           Summary charts and metrics
+          
 🛢️ SQL Database Logging Stores detailed records of all HTTP requests and detection results in a relational database for analysis and auditing.
 🧾 Reporting Module Generates security reports daily, weekly, monthly, and yearly insights. 
 # System Architecture 
